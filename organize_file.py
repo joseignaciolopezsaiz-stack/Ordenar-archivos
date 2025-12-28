@@ -24,7 +24,7 @@ def organize_files(folder):
             other_dir.mkdir(parents = True,exist_ok = True)
             shutil.move(str(file),Path(other_dir/file.name))
 if __name__=="__main__":
-    organize_files(Path("/storage/emulated/0/organizador/other"))
+    organize_files(Path("/storage/emulated/0/Android/media/com.whatsapp/Whatsapp/Media/WhatsApp Video/Sent"))
     print("Files organized  successfully!")
 #Como Path aplica las rutas segun sea el SO es valido para cualquier sistema operativo
     
